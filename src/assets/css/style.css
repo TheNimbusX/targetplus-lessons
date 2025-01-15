@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.main {
+  padding: 20px 40px;
+}
+
+.title {
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 30px;
+  margin-top: 1em;
+  font-weight: 500;
+}
+
+.text {
+  font-size: 1.3em;
+  margin-top: 1em;
+}
+
+.link-to-task {
+  color: rgb(4, 0, 255);
+  position: relative;
+  top: 20px;
+  font-size: 3em;
+  text-decoration: none;
+  transition: 2s ease-in-out all;
+  opacity: 1;
+}
+
+.page {
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4em;
+}
+.lessons-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.subtitle {
+  margin-bottom: 1em;
+}
+
+.task-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link {
+  color: black;
+  transition: 0.1s ease-in-out all;
+}
+
+.link:hover,
+.download-task:hover {
+  color: red;
+  transition: 0.1s ease-in-out all;
+  cursor: pointer;
+}
+.list {
+  list-style: inside auto;
+}
+summary.subtitle {
+  outline: 1px solid blue;
+  padding: 10px;
+  border-radius: 10px;
+  width: max-content;
+  cursor: pointer;
+  margin-bottom: 3px;
+  transition: 0.2s ease-in-out;
+}
+summary.subtitle:hover {
+  color: red;
+  transition: 0.2s ease-in-out;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  outline: 1px solid blue;
+  padding: 10px;
+  border-radius: 10px;
+  width: max-content;
+}
+
+.download-task {
+  transition: 0.1s ease-in-out all;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
